@@ -1,11 +1,11 @@
-# gulp-parse-assets
+# gulp-grab
 
 it grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
 
 ```
 options;
 	extensions: ['file-extension'] // default: ['js','css','html'],
-	tags: ['jsfiles'] //default: undefined (search the entire file)
+	tags: ['jsfiles'] //default: undefined (searchs the entire file)
 
 note: if you define a tag like jsfiles, please use comment tag like;
 <!-- start:jsfiles -->	files... <!-- end:jsfiles -->
