@@ -1,6 +1,6 @@
 # gulp-parse-assets
 
-it simply grabs files from a defined file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
+it grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
 
 ```
 default options;

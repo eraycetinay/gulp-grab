@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Eray Cetinay <eraycetinay@gmail.com>",
   "main": "index.js",
-  "description": "it simply grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.",
+  "description": "it grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.",
   "dependencies": {
     "gulp-util": "^3.0.7",
     "through2": "^2.0.0"
