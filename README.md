@@ -2,11 +2,14 @@
 
 it simply grabs files from a defined file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
 
+```
 default options;
 	extensions: js,css,html,
 	tags: none.
+```
 
 Eg;
+```
 var gulp=require('gulp');
 var gulpGrab=require('gulp-grab');
 
@@ -19,3 +22,4 @@ gulp.src("test/*")
 gulp.src("test/*")
 .pipe(gulpGrab({tags: ['jsassets'],extensions: ['js']}))
 .pipe(gulp.dest("./dist-assets"));
+```
