@@ -8,9 +8,17 @@ var through = require('through2');
 
 module.exports = function(values) {
     var config = {
-        extensions: ((values.extensions && values.extensions[0]) ? values.extensions : ['js', 'css', 'html']).join('|'),
-        tags: (values.tags && values.tags[0]) ? values.tags : false,
+        extensions: ['js', 'css', 'html'].join('|'),
+        tags: false
     }
+
+    if(values && values.extensions && values.extensions[0]){
+        config.extensions = values.extensions.join('|');
+    }
+    if(values && values.tags && values.tags[0]){
+        config.tags = values.tags;
+    }
+
     return through.obj(function(file, enc, cb) {
         if (file.isNull()) {
             return cb();

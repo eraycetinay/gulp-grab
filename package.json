@@ -1,6 +1,6 @@
 {
   "name": "gulp-grab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Eray Cetinay <eraycetinay@gmail.com>",
   "main": "index.js",
   "description": "it grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.",

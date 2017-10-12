@@ -2,6 +2,12 @@
 
 it grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
 
+# installation
+
+```
+npm install gulp-grab
+```
+
 ```
 options;
 	extensions: ['file-extension'] // default: ['js','css','html'],
