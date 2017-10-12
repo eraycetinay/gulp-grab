@@ -3,9 +3,14 @@
 it grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
 
 ```
-default options;
-	extensions: js,css,html,
-	tags: none.
+options;
+	extensions: ['file-extension'] // default: ['js','css','html'],
+	tags: ['jsfiles'] //default: undefined (search the entire file)
+
+note: if you define a tag like jsfiles, please use comment tag like;
+<!-- start:jsfiles -->	files... <!-- end:jsfiles -->
+in this way, only files between those tags will be piped back.
+also you can use multiple tags and extensions at the same time.
 ```
 
 Eg;
