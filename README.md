@@ -4,7 +4,7 @@
 
 Gulp-grab, grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
 
-# Installation
+## Installation
 ```
 npm install gulp-grab
 ```
