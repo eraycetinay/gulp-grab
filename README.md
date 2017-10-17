@@ -22,7 +22,7 @@ also you can use multiple tags and extensions at the same time.
 ## Examples
 - Get all included JS files in index.html and move them to dist/js folder.
 - Get all included CSS files in index.html and move them to dist/css folder.
-- Get included private CSS and JS files in index.html and move them to dist/private folder.
+- Get only included private CSS and JS files in index.html and move them to dist/private folder.
 
 index.html
 ```
@@ -66,8 +66,10 @@ dist folder
 ```
 js/a.js
 js/b.js
+js/f.js
 css/c.css
 css/d.css
+css/e.css
 private/e.css
 private/f.js
 ```
