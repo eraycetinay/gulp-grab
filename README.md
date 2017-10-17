@@ -1,4 +1,4 @@
-# Gulp Grab Plugin 
+# Gulp Grab 
 [![npm version](https://badge.fury.io/js/ng-latinize.svg)](https://badge.fury.io/js/ng-latinize)
 [![dependency Status](https://david-dm.org/eraycetinay/ng-latinize.svg)](https://david-dm.org/eraycetinay/ng-latinize.svg)
 
