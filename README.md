@@ -20,9 +20,9 @@ in this way, only files between those tags will be piped back.
 also you can use multiple tags and extensions at the same time.
 
 ## Examples
--Get all included JS files in index.html and move them to dist/js folder.
--Get all included CSS files in index.html and move them to dist/css folder.
--Get included private CSS and JS files in index.html and move them to dist/private folder.
+- Get all included JS files in index.html and move them to dist/js folder.
+- Get all included CSS files in index.html and move them to dist/css folder.
+- Get included private CSS and JS files in index.html and move them to dist/private folder.
 
 index.html
 ```
