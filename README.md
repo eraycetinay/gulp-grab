@@ -31,9 +31,10 @@ index.html
 		<script src="a.js"></script>
 		<script src="b.js"></script>
 		<link href="c.css" />
-		<!-- start:private -->
 		<link href="d.css" />
+		<!-- start:private -->
 		<link href="e.css" />
+		<script src="f.js"></script>
 		<!-- end:private -->
 	</head>
 	<body>
@@ -49,18 +50,26 @@ var gulpGrab=require('gulp-grab');
 //get js files
 gulp.src("index.html")
 .pipe(gulpGrab({extensions: ['js']}))
-.pipe(gulp.dest("./dist/js"));
+.pipe(gulp.dest("dist/js"));
 
 //get css files
 gulp.src("index.html")
 .pipe(gulpGrab({extensions: ['css']}))
-.pipe(gulp.dest("./dist/css"));
+.pipe(gulp.dest("dist/css"));
 
 //get private js and css files
 gulp.src("index.html")
 .pipe(gulpGrab({tags: ['private'], extensions: ['css']}))
-.pipe(gulp.dest("./dist/css"));
+.pipe(gulp.dest("dist/css"));
 ```
-
+dist folder
+```
+js/a.js
+js/b.js
+css/c.css
+css/d.css
+private/e.css
+private/f.js
+```
 ## License
 [MIT](LICENSE.txt) license.
