@@ -1,4 +1,6 @@
-# Gulp Grab Plugin
+# Gulp Grab Plugin 
+[![dependency Status](https://david-dm.org/eraycetinay/ng-latinize.svg)](https://david-dm.org/eraycetinay/ng-latinize.svg)
+[![npm version](https://badge.fury.io/js/ng-latinize.svg)](https://badge.fury.io/js/ng-latinize)
 
 Gulp-grab, grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
 
