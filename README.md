@@ -72,4 +72,4 @@ private/e.css
 private/f.js
 ```
 ## License
-[MIT](LICENSE.txt) license.
+[MIT](LICENSE) license.
