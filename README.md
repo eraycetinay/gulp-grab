@@ -1,6 +1,5 @@
 # Gulp Grab  
-[![npm version](https://badge.fury.io/js/gulp-grab.svg)](https://badge.fury.io/js/gulp-grab)
-[![Bower](https://img.shields.io/bower/v/gulp-grab.svg)]()
+[![npm version](https://badge.fury.io/js/gulp-grab.svg)](https://badge.fury.io/js/gulp-grab) 
 [![dependency Status](https://david-dm.org/eraycetinay/gulp-grab.svg)](https://david-dm.org/eraycetinay/gulp-grab.svg)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
