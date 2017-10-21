@@ -1,8 +1,10 @@
-# Gulp Grab 
-[![npm version](https://badge.fury.io/js/ng-latinize.svg)](https://badge.fury.io/js/ng-latinize)
-[![dependency Status](https://david-dm.org/eraycetinay/ng-latinize.svg)](https://david-dm.org/eraycetinay/ng-latinize.svg)
+# Gulp Grab  
+[![npm version](https://badge.fury.io/js/gulp-grab.svg)](https://badge.fury.io/js/gulp-grab)
+[![Bower](https://img.shields.io/bower/v/gulp-grab.svg)]()
+[![dependency Status](https://david-dm.org/eraycetinay/gulp-grab.svg)](https://david-dm.org/eraycetinay/gulp-grab.svg)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
-Gulp-grab, grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
+Grabs the included files from a piped file and returns back the grabbed vinyl files to the pipe by respecting its position in sequence.
 
 ## Installation
 ```
