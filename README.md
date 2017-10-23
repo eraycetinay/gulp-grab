@@ -27,7 +27,7 @@ also you can use multiple tags and extensions at the same time.
 - Get all included CSS files in index.html and move them to dist/css folder.
 - Get only included private CSS and JS files in index.html and move them to dist/private folder.
 
-index.html
+**Html File**
 ```
 <html>
 	<head>
