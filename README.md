@@ -62,7 +62,7 @@ gulp.src("index.html")
 
 //get private js and css files
 gulp.src("index.html")
-.pipe(gulpGrab({tags: ['private'], extensions: ['css']}))
+.pipe(gulpGrab({tags: ['private'], extensions: ['css','js']}))
 .pipe(gulp.dest("dist/private"));
 ```
 dist folder
