@@ -44,7 +44,7 @@ index.html
 	</body>
 </html>
 ```
-**gulpfile.js**
+**Gulp File**
 ```
 //initialize gulp and gulp-grab
 var gulp=require('gulp');
@@ -65,7 +65,7 @@ gulp.src("index.html")
 .pipe(gulpGrab({tags: ['private'], extensions: ['css','js']}))
 .pipe(gulp.dest("dist/private"));
 ```
-**dist folder**
+**Dist Folder**
 ```
 js/a.js
 js/b.js
